@@ -14,5 +14,8 @@
     libva-utils
     nvtopPackages.amd
     neofetch
+    # Toolchains
+    rustup
+    nodejs_22
   ];
 }
