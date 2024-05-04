@@ -11,10 +11,16 @@
     programs.zsh = {
       enable = true;
 
+      shellAliases = {
+        # Very illegal I know but can't do this otherwise
+        mars = "/home/lennox/.mars/bin/mars";
+      };
+
       # Install oh-my-zsh including plugins
       oh-my-zsh = {
         enable = true;
       };
+
       plugins = [
         {
           name = "zsh-autosuggestions";
@@ -35,6 +41,7 @@
           };
         }
       ];
+      
       # Append any required commands to .zshrc
       initExtraFirst = ''
         krabby random --no-title
