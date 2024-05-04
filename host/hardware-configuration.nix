@@ -25,7 +25,7 @@
     };
 
   fileSystems."/home/lennox/data" = 
-    { device = "/dev/sda1";
+    { device = "/dev/disk/by-uuid/ca9e9277-6ae4-4115-a1e1-dd31fc483821";
       fsType = "btrfs";
     };
 

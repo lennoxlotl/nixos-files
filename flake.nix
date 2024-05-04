@@ -21,7 +21,7 @@
   in {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs outputs;};
-      modules = [ 
+      modules = [
         inputs.home-manager.nixosModules.home-manager
         ./host/configuration.nix 
         # TODO: Remove this from here

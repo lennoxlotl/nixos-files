@@ -17,6 +17,7 @@
       "networkmanager"
       "wheel"
       "docker"
+      "flatpak"
     ];
   };
 
