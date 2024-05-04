@@ -4,9 +4,10 @@
   };
 
   config = lib.mkIf config.jetbrains.enable {
-    # Jetbrains Toolbox doesn't have its own program
     home.packages = with pkgs; [
-      jetbrains-toolbox
-    ];
+      jetbrains.clion
+      jetbrains.datagrip
+      jetbrains.idea-ultimate
+    ]; 
   };
 }

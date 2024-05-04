@@ -5,9 +5,10 @@
     ./vscode
     ./multimedia
     ./browser
-    ./jetbrains
     ./gnome
     ./zsh
+    ./jetbrains
+    ./labymod
   ];
   
   # Configure home-manager
@@ -15,6 +16,7 @@
     username = "lennox";
     homeDirectory = "/home/lennox";
     stateVersion = "23.11";
+    
   };
   programs.home-manager.enable = true;
 
@@ -24,7 +26,8 @@
   vscode.enable = true;
   multimedia.enable = true;
   browser.enable = true;
-  jetbrains.enable = true;
   gnome.enable = true;
   zsh.enable = true;
+  jetbrains.enable = true;
+  labymod.enable = true;
 }
