@@ -1,0 +1,1 @@
+This is taken from the official nixpkgs repos but has some fixes I wanted to make to customize it to my needs.
