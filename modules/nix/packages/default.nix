@@ -17,5 +17,6 @@
     # Toolchains
     rustup
     nodejs_22
+    jdk17
   ];
 }
