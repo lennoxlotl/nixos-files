@@ -1,13 +1,13 @@
 { config, lib, inputs, ...}: {
   imports = [
-    ./home/git
-    ./home/games
-    ./home/vscode
-    ./home/multimedia
-    ./home/browser
-    ./home/jetbrains
-    ./home/gnome
-    ./home/zsh
+    ./git
+    ./games
+    ./vscode
+    ./multimedia
+    ./browser
+    ./jetbrains
+    ./gnome
+    ./zsh
   ];
   
   # Configure home-manager

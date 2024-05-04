@@ -6,7 +6,7 @@
   imports = [ 
     inputs.home-manager.nixosModules.home-manager
     ./hardware-configuration.nix
-    ../modules/default.nix
+    ../modules/nix/default.nix
   ];
 
   # Define user account

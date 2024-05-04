@@ -1,11 +1,11 @@
 {lib, ... }: {
   imports = [
-    ./nix/host
-    ./nix/games
-    ./nix/packages
-    ./nix/gnome
-    ./nix/vesktop
-    ./nix/flatpak
+    ./host
+    ./games
+    ./packages
+    ./gnome
+    ./vesktop
+    ./flatpak
   ];
 
   nix = {

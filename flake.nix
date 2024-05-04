@@ -24,11 +24,12 @@
       modules = [ 
         inputs.home-manager.nixosModules.home-manager
         ./host/configuration.nix 
+        # TODO: Remove this from here
         {
           home-manager = {
             extraSpecialArgs = {inherit inputs;};
             useGlobalPkgs = true;
-            users.lennox = import ./modules/home.nix;
+            users.lennox = import ./modules/home/default.nix;
           };
         }
       ];
