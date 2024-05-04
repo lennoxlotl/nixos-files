@@ -15,6 +15,7 @@
     nvtopPackages.amd
     neofetch
     # Toolchains
+    postgresql_16
     rustup
     nodejs_22
     jdk17
