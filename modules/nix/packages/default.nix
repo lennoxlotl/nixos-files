@@ -15,6 +15,11 @@
     nvtopPackages.amd
     neofetch
     # Toolchains
+    dialog
+    dos2unix
+    skaffold
+    k9s
+    kubectl
     openssl
     openssl.dev
     bison
